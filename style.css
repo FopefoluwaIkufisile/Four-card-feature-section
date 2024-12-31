@@ -64,12 +64,15 @@ main{
     grid-template: repeat(4, 1fr) / repeat(3, 1fr);
     gap: 30px;
     padding: 15px;
+    max-width: 1200px;
+    width: 100%;
 }
 .grid-container p{
     margin-bottom: 10px;
 }
 .shadow{
     box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.777);
+    max-width: 400px;
 }
 .heading{
     color: var(--dark-blue);
@@ -123,6 +126,7 @@ main{
     .grid-container{
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 40px;
     }
     main{
